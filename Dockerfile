@@ -1,5 +1,5 @@
 # Use the official wg-easy image as a base
-FROM ghcr.io/wg-easy/wg-easy
+FROM weejewel/wg-easy:latest
 
 # Set environment variables
 ENV WG_HOST=your-server-ip
