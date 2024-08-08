@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: generate secret
+      - name: Generate secret
         id: generate-secret
         run: |
           GENERATED_SECRET=$((RANDOM))
